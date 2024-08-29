@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <RollingRandomAccessFile name="R" fileName="/tmp/tttt/logs/tttt.log"
+                                 filePattern="/tmp/tttt/logs/tttt.log.%d{yyyy-MM-dd}">
+            <PatternLayout pattern="%-d{yyyy-MM-dd HH:mm:ss.SSS} %p %X{traceId} [%t] %c{1} | %m%n">
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+            </Policies>
+            <DefaultRolloverStrategy max="30"/>
+        </RollingRandomAccessFile>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%-d{yyyy-MM-dd HH:mm:ss.SSS} %p %X{traceId} [%t] %c{1} | %m%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+
+        <logger name="com.tttt" level="DEBUG" />
+        
+        <logger name="org.jooq" level="DEBUG" />
+        
+        <logger name="org.springframework.web" level="INFO" />
+
+        <logger name="org.springframework.security" level="DEBUG" />
+        
+        <Root level="WARN">
+            <AppenderRef ref="R"/>
+            <AppenderRef ref="STDOUT"/>
+        </Root>
+    </Loggers>
+</Configuration>

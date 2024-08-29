@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.wxx</groupId>
+  <artifactId>wxxtest</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>wxxtest</name>
+  <url>http://maven.apache.org</url>
+  <modules>
+    <module>wxxtest-algorithm</module>
+    <module>wxxtest-socket</module>
+    <module>wxxtest-rpc-consumer</module>
+    <module>wxxtest-rpc-framework</module>
+    <module>wxxtest-rpc-provider</module>
+    <module>wxxtest-multi-thread</module>
+    <module>wxxtest-rpc-registration-center</module>
+  </modules>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.compilerVersion>17</maven.compiler.compilerVersion>
+    <java.version>17</java.version>
+  </properties>
+</project>
