@@ -1,4 +1,4 @@
-package com.wxxtest.algorithm.datastructure.queue;
+package com.wxxtest.algorithm.datastructure.queue.pq;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
