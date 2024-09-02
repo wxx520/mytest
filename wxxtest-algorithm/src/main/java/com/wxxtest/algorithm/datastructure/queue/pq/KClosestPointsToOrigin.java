@@ -59,6 +59,7 @@ public class KClosestPointsToOrigin {
 
     /**
      * 将数组points根据距离做快速排序的子过程，当找到第k小的值时，取前k个即目标
+     * O(N)
      */
     public int[][] kClosestByQuickSort(int[][] points, int k) {
         int len = points.length;
@@ -97,8 +98,8 @@ public class KClosestPointsToOrigin {
         int i = left + 1;
         int j = right;
         //双路快排循环不变量
-        //(left,i)<=lpdis,i=left+1,j = right;
-        //(j,right]>pdis
+        //(left,i)<=lPDis,i=left+1,j = right;
+        //(j,right]>lPDis
         while (i <= j) {
             while (i <= right && points[i][0] * points[i][0] + points[i][1] * points[i][1] <= lpDistance) {
                 i++;
