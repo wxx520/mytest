@@ -1,9 +1,11 @@
-package com.wxxtest.algorithm.datastructure.stack;
+package com.wxxtest.algorithm.datastructure.stack.basic;
 
-import java.util.Stack;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 /**
  * 有效的括号
+ * <a href="https://leetcode.cn/problems/valid-parentheses/description/">20. 有效的括号</a>
  */
 public class ValidParentheses {
 
@@ -12,7 +14,7 @@ public class ValidParentheses {
     if (len % 2 == 1) {
       return false;
     }
-    Stack<Character> stack = new Stack<>();
+    Deque<Character> stack = new ArrayDeque<>();
     for (Character c : s.toCharArray()) {
       if (c == '(') {
         stack.push(')');
