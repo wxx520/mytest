@@ -1,6 +1,13 @@
 package com.wxxtest.rpc.framework.ratelimiting;
 
-public class TokenBucketCRA implements RateLimitingAlgorithm{
+/**
+ * 令牌桶限流算法
+ * 按照固定的速度向桶里放令牌
+ * 来一个流量就拿走一个令牌，桶里有令牌，请求才能到达服务器
+ * 真正的平缓限速的限流算法
+ * 对于短时间激增的请求，即使单位时间没有到达限速的阈值，还是会限制掉
+ */
+public class TokenBucketRAL implements RateLimitingAlgorithm{
 
   private final int capacity;     // 令牌桶容量
   private final int rate;         // 令牌生成速率，单位：令牌/秒
@@ -12,7 +19,7 @@ public class TokenBucketCRA implements RateLimitingAlgorithm{
    * @param capacity 令牌桶的容量
    * @param rate 每秒钟放入令牌的速度
    */
-  public TokenBucketCRA(int capacity, int rate) {
+  public TokenBucketRAL(int capacity, int rate) {
     this.capacity = capacity;
     this.rate = rate;
     this.tokens = capacity;

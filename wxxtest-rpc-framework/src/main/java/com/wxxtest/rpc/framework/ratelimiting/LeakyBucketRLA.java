@@ -1,13 +1,19 @@
 package com.wxxtest.rpc.framework.ratelimiting;
 
-public class LeakyBucketCLA implements RateLimitingAlgorithm {
+/**
+ * 漏桶限流算法
+ * 按照一定的速度漏出桶里的请求
+ * 漏的速度直接决定了限流的阈值
+ * 桶的初始大小，决定了该算法有一定程度的缓存流量的激增的能力
+ */
+public class LeakyBucketRLA implements RateLimitingAlgorithm {
 
   private final long capacity;    // 桶的容量
   private final long rate;        // 漏桶每秒钟的出水速率
   private long water;             // 当前桶中的水量
   private long lastLeakTimestamp; // 上次漏水时间戳
 
-  public LeakyBucketCLA(long capacity, long rate) {
+  public LeakyBucketRLA(long capacity, long rate) {
     this.capacity = capacity;
     this.rate = rate;
     this.water = 0;
