@@ -6,7 +6,7 @@ public class CLATest {
 
   @Test
   public void counterCLA(){
-    CounterRateLimitingAlgorithm c1 = new CounterRateLimitingAlgorithm();
+    CounterRLA c1 = new CounterRLA();
     for (int i = 0; i < 200; i++) {
       System.out.println(c1.isLimited());
       if(i==120){
@@ -22,7 +22,7 @@ public class CLATest {
   @Test
   public void counterCLAWithMaxRateConfig(){
 
-    CounterRateLimitingAlgorithm c1 = new CounterRateLimitingAlgorithm(20);
+    CounterRLA c1 = new CounterRLA(20);
     for (int i = 0; i < 25; i++) {
       System.out.println(c1.isLimited());
     }
@@ -30,7 +30,7 @@ public class CLATest {
 
   @Test
   public void slidingWindowCLA(){
-    SlidingWindowCounterCRA s = new SlidingWindowCounterCRA();
+    SlidingWindowCounterRLA s = new SlidingWindowCounterRLA();
     for (int i = 0; i < 103; i++) {
       System.out.println(s.isLimited());
     }
@@ -38,7 +38,7 @@ public class CLATest {
 
   @Test
   public void slidingWindowCLAWithMaxRateConfig(){
-    SlidingWindowCounterCRA s = new SlidingWindowCounterCRA(102);
+    SlidingWindowCounterRLA s = new SlidingWindowCounterRLA(102);
     for (int i = 0; i < 103; i++) {
       System.out.println(s.isLimited());
     }
