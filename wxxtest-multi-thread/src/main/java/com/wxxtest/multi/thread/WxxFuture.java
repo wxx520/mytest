@@ -1,8 +1,8 @@
 package com.wxxtest.multi.thread;
 
-public class WxxFuture implements Future<Object> {
+public class WxxFuture<T> implements Future<T> {
 
-  private Object result;
+  private T result;
 
   /**
    * TODO
@@ -10,19 +10,15 @@ public class WxxFuture implements Future<Object> {
    * 关于泛型的知识
    */
   @Override
-  public synchronized Object get() {
+  public synchronized T get() throws InterruptedException {
     while (result == null) {
-      try {
-        wait();
-      } catch (InterruptedException e) {
-        throw new RuntimeException(e);
-      }
+      wait();
     }
     return result;
   }
 
   @Override
-  public synchronized void complete(Object result) {
+  public synchronized void complete(T result) {
     if (this.result == null) {
       this.result = result;
       notifyAll();
