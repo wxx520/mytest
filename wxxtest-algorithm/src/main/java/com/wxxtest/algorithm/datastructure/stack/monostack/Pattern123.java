@@ -8,6 +8,9 @@ import java.util.Deque;
  */
 public class Pattern123 {
 
+  /**
+   * <a href="https://leetcode.cn/problems/132-pattern/solutions/676970/xiang-xin-ke-xue-xi-lie-xiang-jie-wei-he-95gt/">详细题解</a>
+   */
   public boolean find132pattern(int[] nums) {
     int n = nums.length;
     if (n < 3) {
