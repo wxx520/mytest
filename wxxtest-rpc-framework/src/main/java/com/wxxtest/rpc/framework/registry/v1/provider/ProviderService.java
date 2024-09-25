@@ -1,6 +1,6 @@
-package com.wxxtest.rpc.framework.registry.v1.provider;
+package com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v1.provider;
 
-import com.wxxtest.rpc.framework.registry.v1.LongConnectionService;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v1.LongConnectionService;
 
 public class ProviderService {
   public void register(String serviceName) throws Exception{

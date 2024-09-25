@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.service.mahjong;
+package com.wxxtest.rpc.registration.center.client.rpc.service.mahjong;
 
 import java.io.Serializable;
 import java.util.List;
@@ -15,7 +15,7 @@ public class MahjongInvitationResponse implements Serializable {
 
   private long useTime;
 
-  private List<String> playmates;
+  private String playmates;
 
   public String getMsg() {
     return msg;
@@ -41,11 +41,11 @@ public class MahjongInvitationResponse implements Serializable {
     this.time = time;
   }
 
-  public List<String> getPlaymates() {
+  public String getPlaymates() {
     return playmates;
   }
 
-  public void setPlaymates(List<String> playmates) {
+  public void setPlaymates(String playmates) {
     this.playmates = playmates;
   }
 

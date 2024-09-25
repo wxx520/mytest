@@ -1,8 +1,8 @@
-package com.wxxtest.rpc.consumer.v3;
+package com.wxxtest.rpc.registration.center.client.rpc.consumer.v3;
 
-import com.wxxtest.multi.thread.Future;
-import com.wxxtest.multi.thread.WxxFuture;
-import com.wxxtest.rpc.service.mahjong.MahjongInvitationRequest;
+import com.wxxtest.rpc.registration.center.client.multi.thread.Future;
+import com.wxxtest.rpc.registration.center.client.multi.thread.WxxFuture;
+import com.wxxtest.rpc.registration.center.client.rpc.service.mahjong.MahjongInvitationRequest;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -23,7 +23,11 @@ public class ClientTestV3 {
         for (int j = 0; j < 20; j++) {
           Future<Object> resultF = new WxxFuture();
           service.invite(gen(finalI * 10 + j), resultF);
-          System.out.printf("收到客户端响应：%s\n", resultF.get());
+          try {
+            System.out.printf("收到客户端响应：%s\n", resultF.get());
+          } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+          }
         }
         System.out.printf("当前任务运行结束*********%s,%s\n",Thread.currentThread().getName(),finalI);
       });

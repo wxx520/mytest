@@ -1,6 +1,6 @@
-package com.wxxtest.rpc.framework;
+package com.wxxtest.rpc.registration.center.client.rpc.framework;
 
-import com.wxxtest.rpc.framework.registry.v1.LongConnectionService;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v1.LongConnectionService;
 
 public class RPCFrameworkBootstrap {
   public static void main(String[] args) {

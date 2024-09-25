@@ -1,9 +1,9 @@
-package com.wxxtest.multi.thread;
+package com.wxxtest.rpc.registration.center.client.multi.thread;
 
-import com.wxxtest.multi.thread.pc.BufferResourcesQueue;
-import com.wxxtest.multi.thread.pc.BufferResourcesQueueWithLock;
-import com.wxxtest.multi.thread.pc.Consumer;
-import com.wxxtest.multi.thread.pc.Producer;
+import com.wxxtest.rpc.registration.center.client.multi.thread.pc.BufferResourcesQueue;
+import com.wxxtest.rpc.registration.center.client.multi.thread.pc.BufferResourcesQueueWithLock;
+import com.wxxtest.rpc.registration.center.client.multi.thread.pc.Consumer;
+import com.wxxtest.rpc.registration.center.client.multi.thread.pc.Producer;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;

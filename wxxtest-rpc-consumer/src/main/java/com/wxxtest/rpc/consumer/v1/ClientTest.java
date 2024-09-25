@@ -1,7 +1,7 @@
-package com.wxxtest.rpc.consumer.v1;
+package com.wxxtest.rpc.registration.center.client.rpc.consumer.v1;
 
-import com.wxxtest.rpc.service.mahjong.MahjongInvitationRequest;
-import com.wxxtest.rpc.service.mahjong.MahjongInvitationResponse;
+import com.wxxtest.rpc.registration.center.client.rpc.service.mahjong.MahjongInvitationRequest;
+import com.wxxtest.rpc.registration.center.client.rpc.service.mahjong.MahjongInvitationResponse;
 
 public class ClientTest {
   public static void main(String[] args) {

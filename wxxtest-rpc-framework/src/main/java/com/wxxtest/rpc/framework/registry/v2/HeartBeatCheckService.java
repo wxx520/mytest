@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.framework.registry.v2;
+package com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v2;
 
 import java.net.HttpURLConnection;
 import java.net.URL;

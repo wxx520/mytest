@@ -1,11 +1,11 @@
-package com.wxxtest.rpc.consumer;
+package com.wxxtest.rpc.registration.center.client.rpc.consumer;
 
 
-import com.wxxtest.rpc.framework.bean.RegistryRequestInfo;
-import com.wxxtest.rpc.framework.bean.RegistryResponseInfo;
-import com.wxxtest.rpc.framework.constant.RegistryServiceConstant;
-import com.wxxtest.rpc.framework.constant.RequestType;
-import com.wxxtest.rpc.framework.registry.v2.RegistryCenterProxyService;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.bean.RegistryRequestInfo;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.bean.RegistryResponseInfo;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.constant.RegistryServiceConstant;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.constant.RequestType;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v2.RegistryCenterProxyService;
 
 import java.io.IOException;
 

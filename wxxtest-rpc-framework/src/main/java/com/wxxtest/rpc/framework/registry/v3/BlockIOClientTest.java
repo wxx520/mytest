@@ -1,9 +1,10 @@
-package com.wxxtest.rpc.framework.registry.v3;
+package com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3;
 
-import com.wxxtest.rpc.framework.bean.RegistryRequestInfo;
-import com.wxxtest.rpc.framework.codec.ByteToRegistryResponseDecoder;
-import com.wxxtest.rpc.framework.codec.RegistryRequestToByteEncoder;
-import com.wxxtest.rpc.framework.constant.RequestType;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.bean.RegistryRequestInfo;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.codec.ByteToRegistryResponseDecoder;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.codec.RegistryRequestToByteEncoder;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.constant.RequestType;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v1.LongConnectionService;
 import io.netty.buffer.ByteBuf;
 
 import java.io.IOException;
@@ -11,13 +12,10 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 
-import static com.wxxtest.rpc.framework.registry.v1.LongConnectionService.REGISTRY_SERVICE_HOST;
-import static com.wxxtest.rpc.framework.registry.v1.LongConnectionService.REGISTRY_SERVICE_PORT;
-
 public class BlockIOClientTest {
   public static void main(String[] args) {
-    try (Socket registerConn = new Socket(REGISTRY_SERVICE_HOST,
-            REGISTRY_SERVICE_PORT)) {
+    try (Socket registerConn = new Socket(LongConnectionService.REGISTRY_SERVICE_HOST,
+            LongConnectionService.REGISTRY_SERVICE_PORT)) {
       RegistryRequestInfo req = new RegistryRequestInfo();
       req.setRequestId(1);
       req.setRequestType(RequestType.REGISTRY_SERVICE.getCode());

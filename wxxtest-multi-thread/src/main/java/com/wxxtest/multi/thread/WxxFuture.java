@@ -1,4 +1,4 @@
-package com.wxxtest.multi.thread;
+package com.wxxtest.rpc.registration.center.client.multi.thread;
 
 public class WxxFuture<T> implements Future<T> {
 

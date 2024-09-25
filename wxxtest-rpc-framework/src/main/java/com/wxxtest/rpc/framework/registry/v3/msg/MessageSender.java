@@ -2,11 +2,11 @@
  * Copyright (c) Jaguar Land Rover Ltd 2024. All rights reserved
  */
 
-package com.wxxtest.rpc.framework.registry.v3.msg;
+package com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.msg;
 
-import com.wxxtest.rpc.framework.registry.v3.exception.BorrowNettyClientException;
-import com.wxxtest.rpc.framework.registry.v3.pool.NettyClient;
-import com.wxxtest.rpc.framework.registry.v3.pool.NettyClientManagerService;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.exception.BorrowNettyClientException;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.pool.NettyClient;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.pool.NettyClientManagerService;
 import io.netty.buffer.ByteBuf;
 
 public class MessageSender<T extends RPCIdRequestTag> {

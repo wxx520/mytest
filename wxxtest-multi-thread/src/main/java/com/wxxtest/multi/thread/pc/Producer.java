@@ -1,4 +1,4 @@
-package com.wxxtest.multi.thread.pc;
+package com.wxxtest.rpc.registration.center.client.multi.thread.pc;
 
 public class Producer implements Runnable {
   private final BufferResources br;

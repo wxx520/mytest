@@ -1,8 +1,8 @@
-package com.wxxtest.rpc.framework.codec;
+package com.wxxtest.rpc.registration.center.client.rpc.framework.codec;
 
 
-import com.wxxtest.rpc.framework.bean.RegistryRequestInfo;
-import com.wxxtest.rpc.framework.constant.RequestType;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.bean.RegistryRequestInfo;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.constant.RequestType;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 

@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.service.v3;
+package com.wxxtest.rpc.registration.center.client.rpc.service.v3;
 
 /**
  * Hello world!

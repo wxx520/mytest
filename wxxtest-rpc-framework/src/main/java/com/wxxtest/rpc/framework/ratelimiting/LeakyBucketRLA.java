@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.framework.ratelimiting;
+package com.wxxtest.rpc.registration.center.client.rpc.framework.ratelimiting;
 
 /**
  * 漏桶限流算法

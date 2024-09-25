@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.framework.ratelimiting;
+package com.wxxtest.rpc.registration.center.client.rpc.framework.ratelimiting;
 
 import com.alibaba.csp.sentinel.Entry;
 import com.alibaba.csp.sentinel.EntryType;

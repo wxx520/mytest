@@ -1,26 +1,24 @@
-package com.wxxtest.rpc.framework.registry.v3;
+package com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3;
 
-import com.wxxtest.rpc.framework.bean.RegistryRequestInfo;
-import com.wxxtest.rpc.framework.bean.RegistryResponseInfo;
-import com.wxxtest.rpc.framework.codec.RegistryRequestToByteEncoder;
-import com.wxxtest.rpc.framework.constant.RequestType;
-import com.wxxtest.rpc.framework.registry.v3.msg.MessageSender;
-import com.wxxtest.rpc.framework.registry.v3.pool.NettyClientManagerService;
-import com.wxxtest.rpc.framework.registry.v3.pool.ServiceInfoManager;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.bean.RegistryRequestInfo;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.bean.RegistryResponseInfo;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.codec.RegistryRequestToByteEncoder;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.constant.RequestType;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.msg.MessageSender;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.pool.NettyClientManagerService;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.pool.ServiceInfoManager;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v1.LongConnectionService;
 import io.netty.buffer.ByteBuf;
 
 import java.util.HashMap;
 import java.util.Map;
-
-import static com.wxxtest.rpc.framework.registry.v1.LongConnectionService.REGISTRY_SERVICE_HOST;
-import static com.wxxtest.rpc.framework.registry.v1.LongConnectionService.REGISTRY_SERVICE_PORT;
 
 public class NettyIOClientTest {
 
   public static void main(String[] args) throws Exception {
     ServiceInfoManager<RegistryResponseInfo> sm = new ServiceInfoManager<>();
     Map<String, Integer> hosts = new HashMap<>();
-    hosts.put(REGISTRY_SERVICE_HOST, REGISTRY_SERVICE_PORT);
+    hosts.put(LongConnectionService.REGISTRY_SERVICE_HOST, LongConnectionService.REGISTRY_SERVICE_PORT);
     NettyClientManagerService<RegistryResponseInfo> pool = new NettyClientManagerService<>(hosts, sm);
     MessageSender<RegistryResponseInfo> sender = new MessageSender<>(pool);
 

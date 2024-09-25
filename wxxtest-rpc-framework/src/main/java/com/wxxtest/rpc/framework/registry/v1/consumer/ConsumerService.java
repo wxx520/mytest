@@ -1,6 +1,6 @@
-package com.wxxtest.rpc.framework.registry.v1.consumer;
+package com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v1.consumer;
 
-import com.wxxtest.rpc.framework.registry.v1.LongConnectionService;
+import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v1.LongConnectionService;
 
 import java.util.Map;
 

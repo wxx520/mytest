@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.framework.registry.v3.pool;
+package com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.pool;
 
 import java.util.HashMap;
 import java.util.Map;
