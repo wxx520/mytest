@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.registration.center.client.springboot.aop;
+package com.wxxtest.springboot.aop;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

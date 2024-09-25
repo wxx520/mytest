@@ -1,4 +1,4 @@
-package com.wxx;
+package com.wxxtest;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

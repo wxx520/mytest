@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.registration.center.client.rpc.service.mahjong;
+package com.wxxtest.rpc.service.mahjong;
 
 import java.util.ArrayList;
 import java.util.List;

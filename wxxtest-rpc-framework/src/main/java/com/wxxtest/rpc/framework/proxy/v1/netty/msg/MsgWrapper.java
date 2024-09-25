@@ -2,7 +2,7 @@
  * Copyright (c) Jaguar Land Rover Ltd 2024. All rights reserved
  */
 
-package com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v1.netty.msg;
+package com.wxxtest.rpc.framework.proxy.v1.netty.msg;
 
 import io.netty.buffer.ByteBuf;
 

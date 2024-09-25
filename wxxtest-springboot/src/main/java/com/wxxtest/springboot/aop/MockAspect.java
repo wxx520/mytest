@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.registration.center.client.springboot.aop;
+package com.wxxtest.springboot.aop;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;

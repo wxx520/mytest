@@ -1,6 +1,6 @@
-package com.wxxtest.rpc.registration.center.client.rpc.service.v3;
+package com.wxxtest.rpc.service.v3;
 
-import com.wxxtest.rpc.registration.center.client.rpc.service.mahjong.MahjongInvitationRequest;
+import com.wxxtest.rpc.service.mahjong.MahjongInvitationRequest;
 
 import java.io.ObjectInputStream;
 import java.net.ServerSocket;

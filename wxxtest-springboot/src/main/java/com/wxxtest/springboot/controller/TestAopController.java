@@ -1,7 +1,7 @@
-package com.wxxtest.rpc.registration.center.client.springboot.controller;
+package com.wxxtest.springboot.controller;
 
 
-import com.wxxtest.rpc.registration.center.client.springboot.aop.MockDemoService;
+import com.wxxtest.springboot.aop.MockDemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.web.bind.annotation.RequestMapping;

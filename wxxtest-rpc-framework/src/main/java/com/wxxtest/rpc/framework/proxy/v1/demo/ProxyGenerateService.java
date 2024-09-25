@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v1.demo;
+package com.wxxtest.rpc.framework.proxy.v1.demo;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

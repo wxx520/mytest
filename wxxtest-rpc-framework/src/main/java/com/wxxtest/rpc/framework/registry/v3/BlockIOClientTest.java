@@ -1,10 +1,10 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3;
+package com.wxxtest.rpc.framework.registry.v3;
 
-import com.wxxtest.rpc.registration.center.client.rpc.framework.bean.RegistryRequestInfo;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.codec.ByteToRegistryResponseDecoder;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.codec.RegistryRequestToByteEncoder;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.constant.RequestType;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v1.LongConnectionService;
+import com.wxxtest.rpc.framework.bean.RegistryRequestInfo;
+import com.wxxtest.rpc.framework.codec.ByteToRegistryResponseDecoder;
+import com.wxxtest.rpc.framework.codec.RegistryRequestToByteEncoder;
+import com.wxxtest.rpc.framework.constant.RequestType;
+import com.wxxtest.rpc.framework.registry.v1.LongConnectionService;
 import io.netty.buffer.ByteBuf;
 
 import java.io.IOException;

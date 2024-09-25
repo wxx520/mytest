@@ -1,8 +1,8 @@
-package com.wxxtest.rpc.registration.center.client.rpc.consumer.v2;
+package com.wxxtest.rpc.consumer.v2;
 
-import com.wxxtest.rpc.registration.center.client.rpc.service.mahjong.MahjongInvitationRequest;
-import com.wxxtest.rpc.registration.center.client.rpc.service.mahjong.MahjongInvitationResponse;
-import com.wxxtest.rpc.registration.center.client.rpc.service.mahjong.MahjongInvitationService;
+import com.wxxtest.rpc.service.mahjong.MahjongInvitationRequest;
+import com.wxxtest.rpc.service.mahjong.MahjongInvitationResponse;
+import com.wxxtest.rpc.service.mahjong.MahjongInvitationService;
 
 public class MahjongInvitationServiceImplV2 implements MahjongInvitationService {
   private final TCPLongConnectionClientV2 connectionClient;

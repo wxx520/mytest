@@ -1,6 +1,6 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v1.netty.msg;
+package com.wxxtest.rpc.framework.proxy.v1.netty.msg;
 
-import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.msg.RPCIdRequestTag;
+import com.wxxtest.rpc.framework.registry.v3.msg.RPCIdRequestTag;
 
 public class DefaultRPCMsg<T> implements RPCIdRequestTag {
   private long requestId;

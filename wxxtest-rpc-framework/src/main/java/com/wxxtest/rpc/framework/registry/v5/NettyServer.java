@@ -1,7 +1,7 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v5;
+package com.wxxtest.rpc.framework.registry.v5;
 
-import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v5.handler.RequestDecoder;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v5.handler.RequestHandler;
+import com.wxxtest.rpc.framework.registry.v5.handler.RequestDecoder;
+import com.wxxtest.rpc.framework.registry.v5.handler.RequestHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;

@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v2;
+package com.wxxtest.rpc.framework.proxy.v2;
 
 public class ClientProxyTest {
   public static void main(String[] args) {

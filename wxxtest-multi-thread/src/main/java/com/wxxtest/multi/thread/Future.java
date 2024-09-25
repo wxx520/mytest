@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.registration.center.client.multi.thread;
+package com.wxxtest.multi.thread;
 
 /**
  * 线程间传参

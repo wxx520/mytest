@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v1.netty.pool;
+package com.wxxtest.rpc.framework.proxy.v1.netty.pool;
 
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.registration.center.client.rpc.service.registry;
+package com.wxxtest.rpc.service.registry;
 
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;

@@ -17,6 +17,7 @@
     <module>wxxtest-rpc-provider</module>
     <module>wxxtest-multi-thread</module>
     <module>wxxtest-rpc-registration-center</module>
+      <module>wxxtest-springboot</module>
   </modules>
 
   <properties>

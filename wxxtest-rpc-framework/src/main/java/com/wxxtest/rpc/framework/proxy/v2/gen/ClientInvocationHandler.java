@@ -1,7 +1,7 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v2.gen;
+package com.wxxtest.rpc.framework.proxy.v2.gen;
 
-import com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v2.msg.MsgWrapper;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v2.pool.NettyClientManagerService;
+import com.wxxtest.rpc.framework.proxy.v2.msg.MsgWrapper;
+import com.wxxtest.rpc.framework.proxy.v2.pool.NettyClientManagerService;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

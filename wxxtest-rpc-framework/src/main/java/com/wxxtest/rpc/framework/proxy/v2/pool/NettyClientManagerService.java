@@ -1,8 +1,8 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v2.pool;
+package com.wxxtest.rpc.framework.proxy.v2.pool;
 
 
-import com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v2.msg.MsgWrapper;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v2.registry.RegistryService;
+import com.wxxtest.rpc.framework.proxy.v2.msg.MsgWrapper;
+import com.wxxtest.rpc.framework.proxy.v2.registry.RegistryService;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,2 +1,13 @@
-package com.wxxtest.springboot.ano;public @interface RPCClient {
+package com.wxxtest.springboot.ano;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target(ElementType.FIELD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface RPCClient {
+
+  String name() default "";
 }

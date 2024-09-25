@@ -1,6 +1,6 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v5;
+package com.wxxtest.rpc.framework.registry.v5;
 
-import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v4.msg.ReflectInfoMsg;
+import com.wxxtest.rpc.framework.registry.v4.msg.ReflectInfoMsg;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

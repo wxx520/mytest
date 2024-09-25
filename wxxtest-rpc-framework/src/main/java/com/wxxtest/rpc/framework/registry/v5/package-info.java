@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v5;
+package com.wxxtest.rpc.framework.registry.v5;
 /**
  * 代码的可维护性可读性可以作为衡量代码的质量关键性指标，完成功能只是最基本的要求。
  * 而代码可读性、可维护性是有设计者组织代码的方式决定的。

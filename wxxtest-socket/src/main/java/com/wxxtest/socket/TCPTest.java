@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.registration.center.client.rpc.server.com.wxxtest.socket;
+package com.wxxtest.socket;
 
 public class TCPTest {
   public static void main(String[] args) {

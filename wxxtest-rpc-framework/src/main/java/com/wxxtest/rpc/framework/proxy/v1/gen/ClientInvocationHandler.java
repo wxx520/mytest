@@ -1,8 +1,8 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v1.gen;
+package com.wxxtest.rpc.framework.proxy.v1.gen;
 
-import com.wxxtest.rpc.registration.center.client.rpc.framework.codec.ByteBufUtil;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v1.netty.msg.MessageSender;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v1.netty.pool.NettyClientManagerService;
+import com.wxxtest.rpc.framework.codec.ByteBufUtil;
+import com.wxxtest.rpc.framework.proxy.v1.netty.msg.MessageSender;
+import com.wxxtest.rpc.framework.proxy.v1.netty.pool.NettyClientManagerService;
 import io.netty.buffer.ByteBuf;
 
 import java.lang.reflect.InvocationHandler;

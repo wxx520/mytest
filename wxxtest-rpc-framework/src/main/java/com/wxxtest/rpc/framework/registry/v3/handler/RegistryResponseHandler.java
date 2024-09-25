@@ -1,8 +1,8 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.handler;
+package com.wxxtest.rpc.framework.registry.v3.handler;
 
-import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.msg.MsgWrapper;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.pool.ServiceInfoManager;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.msg.RPCIdRequestTag;
+import com.wxxtest.rpc.framework.registry.v3.msg.MsgWrapper;
+import com.wxxtest.rpc.framework.registry.v3.msg.RPCIdRequestTag;
+import com.wxxtest.rpc.framework.registry.v3.pool.ServiceInfoManager;
 import io.netty.channel.ChannelDuplexHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelPromise;

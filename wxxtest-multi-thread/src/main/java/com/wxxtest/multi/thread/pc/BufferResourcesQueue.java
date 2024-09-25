@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.registration.center.client.multi.thread.pc;
+package com.wxxtest.multi.thread.pc;
 
 import java.util.LinkedList;
 import java.util.Queue;

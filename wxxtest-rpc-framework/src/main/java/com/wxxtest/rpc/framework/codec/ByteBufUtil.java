@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.codec;
+package com.wxxtest.rpc.framework.codec;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

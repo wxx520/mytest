@@ -2,7 +2,7 @@
  * Copyright (c) Jaguar Land Rover Ltd 2024. All rights reserved
  */
 
-package com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v2.msg;
+package com.wxxtest.rpc.framework.proxy.v2.msg;
 
 import java.util.Arrays;
 import java.util.concurrent.CompletableFuture;

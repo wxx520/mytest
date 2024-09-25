@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v2;
+package com.wxxtest.rpc.framework.proxy.v2;
 /**
  * 客户端调用远程服务时，只需要关心方法调用的逻辑
  * 1、请求对象响应对象的序列化和反序列

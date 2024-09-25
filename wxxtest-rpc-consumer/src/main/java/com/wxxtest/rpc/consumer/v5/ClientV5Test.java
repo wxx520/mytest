@@ -1,9 +1,9 @@
-package com.wxxtest.rpc.registration.center.client.rpc.consumer.v5;
+package com.wxxtest.rpc.consumer.v5;
 
-import com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v2.gen.RpcProxyCreator;
-import com.wxxtest.rpc.registration.center.client.rpc.service.mahjong.MahjongInvitationRequest;
-import com.wxxtest.rpc.registration.center.client.rpc.service.mahjong.MahjongInvitationResponse;
-import com.wxxtest.rpc.registration.center.client.rpc.service.mahjong.MahjongInvitationService;
+import com.wxxtest.rpc.framework.proxy.v2.gen.RpcProxyCreator;
+import com.wxxtest.rpc.service.mahjong.MahjongInvitationRequest;
+import com.wxxtest.rpc.service.mahjong.MahjongInvitationResponse;
+import com.wxxtest.rpc.service.mahjong.MahjongInvitationService;
 
 public class ClientV5Test {
   public static void main(String[] args) {

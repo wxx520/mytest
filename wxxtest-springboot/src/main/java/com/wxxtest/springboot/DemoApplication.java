@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.registration.center.client.springboot;
+package com.wxxtest.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

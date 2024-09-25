@@ -1,9 +1,9 @@
-package com.wxxtest.rpc.registration.center.client.rpc.consumer.v4;
+package com.wxxtest.rpc.consumer.v4;
 
-import com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v1.gen.RpcProxyCreator;
-import com.wxxtest.rpc.registration.center.client.rpc.service.mahjong.MahjongInvitationRequest;
-import com.wxxtest.rpc.registration.center.client.rpc.service.mahjong.MahjongInvitationResponse;
-import com.wxxtest.rpc.registration.center.client.rpc.service.mahjong.MahjongInvitationService;
+import com.wxxtest.rpc.framework.proxy.v1.gen.RpcProxyCreator;
+import com.wxxtest.rpc.service.mahjong.MahjongInvitationRequest;
+import com.wxxtest.rpc.service.mahjong.MahjongInvitationResponse;
+import com.wxxtest.rpc.service.mahjong.MahjongInvitationService;
 
 import java.util.HashMap;
 import java.util.Map;

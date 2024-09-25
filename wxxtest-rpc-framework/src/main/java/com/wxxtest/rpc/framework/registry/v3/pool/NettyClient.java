@@ -1,10 +1,10 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.pool;
+package com.wxxtest.rpc.framework.registry.v3.pool;
 
-import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.handler.LoginHandler;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.handler.RegistryResponseDecoder;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.handler.RegistryResponseHandler;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.msg.MsgWrapper;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.msg.RPCIdRequestTag;
+import com.wxxtest.rpc.framework.registry.v3.handler.LoginHandler;
+import com.wxxtest.rpc.framework.registry.v3.handler.RegistryResponseHandler;
+import com.wxxtest.rpc.framework.registry.v3.msg.MsgWrapper;
+import com.wxxtest.rpc.framework.registry.v3.msg.RPCIdRequestTag;
+import com.wxxtest.rpc.framework.registry.v3.handler.RegistryResponseDecoder;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.*;

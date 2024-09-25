@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.constant;
+package com.wxxtest.rpc.framework.constant;
 
 public enum RequestType {
 

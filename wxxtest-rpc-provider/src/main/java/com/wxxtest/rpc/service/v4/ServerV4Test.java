@@ -1,7 +1,7 @@
-package com.wxxtest.rpc.registration.center.client.rpc.service.v4;
+package com.wxxtest.rpc.service.v4;
 
 import com.wxxtest.rpc.framework.registry.v4.pool.NettyServer;
-import com.wxxtest.rpc.registration.center.client.rpc.service.mahjong.MahjongInvitationServiceDefaultImpl;
+import com.wxxtest.rpc.service.mahjong.MahjongInvitationServiceDefaultImpl;
 
 import java.lang.reflect.InvocationTargetException;
 

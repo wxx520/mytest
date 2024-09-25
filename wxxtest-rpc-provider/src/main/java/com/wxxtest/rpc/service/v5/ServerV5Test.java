@@ -1,10 +1,10 @@
-package com.wxxtest.rpc.registration.center.client.rpc.service.v5;
+package com.wxxtest.rpc.service.v5;
 
 
 import com.wxxtest.rpc.framework.registry.v5.NettyServer;
 import com.wxxtest.rpc.framework.registry.v5.RegistryServiceManager;
-import com.wxxtest.rpc.registration.center.client.rpc.service.mahjong.MahjongInvitationService;
-import com.wxxtest.rpc.registration.center.client.rpc.service.mahjong.MahjongInvitationServiceDefaultImpl;
+import com.wxxtest.rpc.service.mahjong.MahjongInvitationService;
+import com.wxxtest.rpc.service.mahjong.MahjongInvitationServiceDefaultImpl;
 
 public class ServerV5Test {
 

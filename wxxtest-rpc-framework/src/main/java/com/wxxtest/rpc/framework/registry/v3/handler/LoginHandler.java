@@ -2,12 +2,12 @@
  * Copyright (c) Jaguar Land Rover Ltd 2024. All rights reserved
  */
 
-package com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.handler;
+package com.wxxtest.rpc.framework.registry.v3.handler;
 
-import com.wxxtest.rpc.registration.center.client.rpc.framework.bean.RegistryRequestInfo;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.bean.RegistryResponseInfo;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.codec.RegistryRequestToByteEncoder;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.constant.RequestType;
+import com.wxxtest.rpc.framework.bean.RegistryRequestInfo;
+import com.wxxtest.rpc.framework.bean.RegistryResponseInfo;
+import com.wxxtest.rpc.framework.codec.RegistryRequestToByteEncoder;
+import com.wxxtest.rpc.framework.constant.RequestType;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;

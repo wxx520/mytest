@@ -1,5 +1,7 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.ratelimiting;
+package com.wxxtest.rpc.framework.ratelimiting;
 
+import com.wxxtest.rpc.framework.ratelimiting.CounterRLA;
+import com.wxxtest.rpc.framework.ratelimiting.SlidingWindowCounterRLA;
 import org.junit.Test;
 
 public class CLATest {

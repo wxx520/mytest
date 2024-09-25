@@ -1,6 +1,6 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.bean;
+package com.wxxtest.rpc.framework.bean;
 
-import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.msg.RPCIdRequestTag;
+import com.wxxtest.rpc.framework.registry.v3.msg.RPCIdRequestTag;
 
 import java.io.Serializable;
 import java.util.Map;

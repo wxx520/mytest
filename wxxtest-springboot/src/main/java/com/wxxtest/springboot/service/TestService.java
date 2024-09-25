@@ -1,9 +1,11 @@
-package com.wxxtest.rpc.registration.center.client.springboot.service;
+package com.wxxtest.springboot.service;
 
 import org.springframework.stereotype.Service;
 
 @Service
 public class TestService {
+
+
 
   public String hello() {
     return "Hello, Spring!";

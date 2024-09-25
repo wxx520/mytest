@@ -1,7 +1,7 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.handler;
+package com.wxxtest.rpc.framework.registry.v3.handler;
 
-import com.wxxtest.rpc.registration.center.client.rpc.framework.bean.RegistryResponseInfo;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.codec.ByteToRegistryResponseDecoder;
+import com.wxxtest.rpc.framework.bean.RegistryResponseInfo;
+import com.wxxtest.rpc.framework.codec.ByteToRegistryResponseDecoder;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageDecoder;

@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.registration.center.client.rpc.server;
+package com.wxxtest.socket;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

@@ -1,8 +1,8 @@
-package com.wxxtest.rpc.registration.center.client.rpc.consumer.v3;
+package com.wxxtest.rpc.consumer.v3;
 
-import com.wxxtest.rpc.registration.center.client.multi.thread.Future;
-import com.wxxtest.rpc.registration.center.client.multi.thread.WxxFuture;
-import com.wxxtest.rpc.registration.center.client.rpc.service.mahjong.MahjongInvitationRequest;
+import com.wxxtest.multi.thread.Future;
+import com.wxxtest.multi.thread.WxxFuture;
+import com.wxxtest.rpc.service.mahjong.MahjongInvitationRequest;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;

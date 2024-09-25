@@ -1,8 +1,8 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v1.netty.pool;
+package com.wxxtest.rpc.framework.proxy.v1.netty.pool;
 
-import com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v1.netty.handler.ResponseDecoder;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v1.netty.handler.ResponseHandler;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v1.netty.msg.MsgWrapper;
+import com.wxxtest.rpc.framework.proxy.v1.netty.msg.MsgWrapper;
+import com.wxxtest.rpc.framework.proxy.v1.netty.handler.ResponseDecoder;
+import com.wxxtest.rpc.framework.proxy.v1.netty.handler.ResponseHandler;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.*;

@@ -1,6 +1,6 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.pool;
+package com.wxxtest.rpc.framework.registry.v3.pool;
 
-import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.msg.RPCIdRequestTag;
+import com.wxxtest.rpc.framework.registry.v3.msg.RPCIdRequestTag;
 
 import java.util.ArrayList;
 import java.util.List;

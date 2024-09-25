@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v3.exception;
+package com.wxxtest.rpc.framework.registry.v3.exception;
 
 /**
  * TODO 异常定义

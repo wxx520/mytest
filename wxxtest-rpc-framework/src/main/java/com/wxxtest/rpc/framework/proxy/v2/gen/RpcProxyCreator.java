@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v2.gen;
+package com.wxxtest.rpc.framework.proxy.v2.gen;
 
 import java.lang.reflect.Proxy;
 

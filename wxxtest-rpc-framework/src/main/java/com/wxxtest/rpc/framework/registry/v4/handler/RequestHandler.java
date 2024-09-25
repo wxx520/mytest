@@ -1,8 +1,8 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v4.handler;
+package com.wxxtest.rpc.framework.registry.v4.handler;
 
-import com.wxxtest.rpc.registration.center.client.rpc.framework.codec.ByteBufUtil;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v4.msg.ReflectInfoMsg;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.registry.v4.msg.ResponseWrapper;
+import com.wxxtest.rpc.framework.codec.ByteBufUtil;
+import com.wxxtest.rpc.framework.registry.v4.msg.ResponseWrapper;
+import com.wxxtest.rpc.framework.registry.v4.msg.ReflectInfoMsg;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;

@@ -1,7 +1,7 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v1.netty.handler;
+package com.wxxtest.rpc.framework.proxy.v1.netty.handler;
 
-import com.wxxtest.rpc.registration.center.client.rpc.framework.codec.ByteBufUtil;
-import com.wxxtest.rpc.registration.center.client.rpc.framework.proxy.v1.netty.msg.MsgWrapper;
+import com.wxxtest.rpc.framework.codec.ByteBufUtil;
+import com.wxxtest.rpc.framework.proxy.v1.netty.msg.MsgWrapper;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageDecoder;

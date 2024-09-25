@@ -1,4 +1,4 @@
-package com.wxxtest.rpc.registration.center.client.rpc.framework.ratelimiting;
+package com.wxxtest.rpc.framework.ratelimiting;
 /*
   rpc限流算法
   1、计数器限流算法：固定窗口计数，无法面处理时间窗口内流量激增的情况，以及跨窗口的流量超出
